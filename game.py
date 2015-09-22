@@ -5,7 +5,6 @@ print "What is your name?"
 user_name = raw_input(">")
 
 secret_number = random.randint(1,100)
-print secret_number #TAKE THIS OUT
 
 while True:
     user_guess = int(raw_input("Guess a number: "))
